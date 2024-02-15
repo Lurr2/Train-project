@@ -25,10 +25,11 @@ nav{
 .wrapper .nav-links{
   display: inline-flex;
 }
-.nav-links li{
+ li{
   list-style: none;
 }
-.nav-links li a{
+ li a{
+  display: inline-flex;
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
