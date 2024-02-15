@@ -1,7 +1,10 @@
 <nav>
     <div class="wrapper">
       <div class="logo"><a href="">Logo</a></div>
+      
       <ul class="nav-links">
+        <li class="translator" *ngFor="let language of translate.getLangs()"
+        (click)="switchLanguage(language)">{{ language }}</li>
         <li><a href="/promotion">Aktualne promocje</a></li>
         <li><a href="/inspiration">Inspiracje</a></li>
         <li><a href="/news">Aktualności</a></li>
