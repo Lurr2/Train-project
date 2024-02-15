@@ -4,7 +4,7 @@
       
       <ul class="nav-links">
         <li class="translator" *ngFor="let language of translate.getLangs()"
-        (click)="switchLanguage(language)"><img src="assets/images/translators{{language}}.png"></li>
+        (click)="switchLanguage(language)"><img class="translator_image" src="assets/images/translators/{{language}}.png"></li>
         <li><a href="/promotion">Aktualne promocje</a></li>
         <li><a href="/inspiration">Inspiracje</a></li>
         <li><a href="/news">Aktualności</a></li>

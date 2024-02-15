@@ -43,5 +43,14 @@ nav{
 }
 .translator {
   padding: 10px;
-  color: white
+  color: white;
+  &_image {
+    width: 20px;
+    height: 15px;
+    
+  }
+
+}
+.translator :hover {
+  cursor: pointer;
 }
