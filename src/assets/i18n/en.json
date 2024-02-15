@@ -1,3 +1,9 @@
 {
-    "test": "WELCOME"
+    "logo": "Logo",
+    "promotion": "Promotions",
+    "inspiration": "Inspirations",
+    "news": "News",
+    "contact": "Contact"
+
 }
+
