@@ -25,10 +25,11 @@ nav{
 .wrapper .nav-links{
   display: inline-flex;
 }
-.nav-links li{
+ li{
   list-style: none;
 }
-.nav-links li a{
+ li a{
+  display: inline-flex;
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
@@ -39,4 +40,17 @@ nav{
 }
 .nav-links li a:hover{
   background: #3A3B3C;
+}
+.translator {
+  padding: 10px;
+  color: white;
+  &_image {
+    width: 20px;
+    height: 15px;
+    
+  }
+
+}
+.translator :hover {
+  cursor: pointer;
 }
