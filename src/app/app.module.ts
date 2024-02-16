@@ -11,6 +11,7 @@ import { InspirationComponent } from './components/common/inspiration/inspiratio
 import { NewsComponent } from './components/common/news/news.component';
 import { ContactComponent } from './components/common/contact/contact.component';
 import { MainComponent } from './components/common/main/main.component';
+import { SliderComponent } from './components/common/main-items/slider/slider.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MainComponent } from './components/common/main/main.component';
     InspirationComponent,
     NewsComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
