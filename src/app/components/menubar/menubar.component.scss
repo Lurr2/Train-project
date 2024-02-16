@@ -44,14 +44,15 @@ nav{
 .translator {
   padding: 10px;
   color: white;
+  
   &_image {
     width: 20px;
     height: 15px;
-    
+    transition: all .2s ease-in-out;
   }
 
 }
 .translator :hover {
   cursor: pointer;
-  
+  transform: scale(1.3);
 }
