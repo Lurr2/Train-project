@@ -1,1 +1,6 @@
-<p>slider works!</p>
+<div class="slider-container">
+    <img [src]="images[currentIndex].url" alt="Slide">
+    <div class="caption">{{ images[currentIndex].caption }}</div>
+    <button class="prev" (click)="showPrev()">Previous</button>
+    <button class="next"(click)="showNext()">Next</button>
+  </div>

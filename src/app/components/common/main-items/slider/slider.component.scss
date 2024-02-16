@@ -1,0 +1,35 @@
+.slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  button:last-child {
+    color: red;
+    right: 10px;
+  }
