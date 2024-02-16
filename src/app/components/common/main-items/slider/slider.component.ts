@@ -1,33 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+interface mainSliderImage {
+  imageSrc: string ;
+  imageAlt: string;
+}
 
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
-  styleUrls: ['./slider.component.scss']
+  styleUrls: ['./slider.component.scss'],
 })
 export class SliderComponent implements OnInit {
-  images: { url: string, caption: string }[] = [
-    { url: 'https://via.placeholder.com/600x400', caption: 'First slide' },
-    { url: 'https://via.placeholder.com/600x400', caption: 'Second slide' },
-    { url: 'https://via.placeholder.com/600x400', caption: 'Third slide' }
-  ];
   
-  currentIndex: number = 0;
-  
+@Input() images: mainSliderImage[] = []
+  @Input()
+  indicators: true = true;
+
+  selectedIndex = 0;
   
 
-  showNext() {
-    this.currentIndex = (this.currentIndex + 1) % this.images.length;
-  }
-  showPrev() {
-    this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
-  }
-  
-  
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    
-  }
 
+  }
+  selectImage(index: number): void {
+    this.selectedIndex = index;
+  }
 }
+
