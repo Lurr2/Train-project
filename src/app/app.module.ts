@@ -13,6 +13,7 @@ import { ContactComponent } from './components/common/contact/contact.component'
 import { MainComponent } from './components/common/main/main.component';
 import { SliderComponent } from './components/common/main-items/slider/slider.component';
 import { MainTextComponent } from './components/common/main-items/main-text/main-text.component';
+import { FooterComponent } from './components/common/footer/footer.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { MainTextComponent } from './components/common/main-items/main-text/main
     ContactComponent,
     MainComponent,
     SliderComponent,
-    MainTextComponent
+    MainTextComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
