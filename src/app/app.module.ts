@@ -12,6 +12,7 @@ import { NewsComponent } from './components/common/news/news.component';
 import { ContactComponent } from './components/common/contact/contact.component';
 import { MainComponent } from './components/common/main/main.component';
 import { SliderComponent } from './components/common/main-items/slider/slider.component';
+import { MainTextComponent } from './components/common/main-items/main-text/main-text.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SliderComponent } from './components/common/main-items/slider/slider.co
     NewsComponent,
     ContactComponent,
     MainComponent,
-    SliderComponent
+    SliderComponent,
+    MainTextComponent
   ],
   imports: [
     BrowserModule,
