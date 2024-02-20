@@ -1,9 +1,32 @@
+
+
 {
     "logo": "Logo",
     "promotion": "Promocje",
     "inspiration": "Inspiracje",
     "news": "Aktualności",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
 
+    "title": "Witaj w Świecie Zabawek!",
+    "title-text": "Witaj w naszym magicznym sklepie pełnym radości i kreatywności! Jesteśmy dumni z tego, że możemy dostarczyć Ci najwyższej jakości zabawki, które nie tylko bawią, ale również rozwijają wyobraźnię i umiejętności Twojego dziecka.",
+    "mission": "Nasza misja",
+    "mission-text": "Naszą misją jest zapewnienie dzieciom na całym świecie dostępu do bezpiecznych, edukacyjnych i inspirujących zabawek. Wierzymy, że zabawa jest kluczem do rozwoju, dlatego oferujemy szeroki wybór produktów, które wspierają rozwój emocjonalny, społeczny oraz poznawczy.",
+    "offer": "Nasza oferta",
+    "offer-text": "W naszym sklepie znajdziesz wszystko, czego potrzebuje Twoje dziecko, aby rozwijać się i cieszyć zabawą. Oferujemy zabawki dla dzieci w każdym wieku, od najmłodszych po starsze dzieci. Nasze produkty obejmują:",
+    "offer-list-item-one": "Interaktywne zabawki edukacyjne, które rozwijają umiejętności poznawcze i logiczne.",
+    "offer-list-item-two": "Kreatywne zestawy do zabawy, które inspirują dzieci do wyrażania siebie i rozwijania swojej wyobraźni.",
+    "offer-list-item-three": "Zabawki konstrukcyjne, które pomagają w rozwijaniu zdolności manualnych i myślenia przestrzennego.",
+    "offer-list-item-four": "Zabawki interaktywne, które angażują dzieci w aktywną zabawę i uczenie się poprzez interakcję.",
+    "offer-list-item-five": "Gry edukacyjne, które uczą dzieci ważnych umiejętności, takich jak liczenie, czytanie i rozwiązywanie problemów.",
+    "why-us": "Dlaczego Wybrać Nas?",
+    "why-us-list-item-one-intro": "Jakość i Bezpieczeństwo: ",
+    "why-us-list-item-one": "Wszystkie nasze zabawki są starannie wyselekcjonowane z myślą o jakości i bezpieczeństwie. Dbamy o to, aby spełniały najwyższe standardy bezpieczeństwa.",
+    "why-us-list-item-two": "Edukacja i Rozwój: Nasze zabawki nie tylko bawią, ale również uczą i rozwijają. Wspieramy dzieci w ich rozwoju, oferując produkty, które stymulują różne obszary rozwojowe.",
+    "why-us-list-item-two-intro": "Edukacja i Rozwój: ",
+    "why-us-list-item-three-intro": "Inspirujący Wybór: ",
+    "why-us-list-item-three": "W naszym sklepie znajdziesz szeroki wybór zabawek odpowiednich dla dzieci w różnym wieku i o różnych zainteresowaniach. Z nami każde dziecko znajdzie coś dla siebie!",
+    "why-us-list-item-four-intro": "Profesjonalna Obsługa: ",
+    "why-us-list-item-four": "Nasz zespół składa się z pasjonatów, którzy chętnie pomogą Ci w wyborze idealnych zabawek dla Twojego dziecka. Jesteśmy tu, aby zapewnić Ci najlepsze doświadczenie zakupowe."
+    
 }
 
