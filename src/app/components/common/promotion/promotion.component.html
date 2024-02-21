@@ -1,1 +1,5 @@
-<p>promotion works!</p>
+<div class="container">
+  <ng-container *ngFor="let card of dataPromotion">
+    <app-promotion-box [promotionData]="card"></app-promotion-box>
+  </ng-container>
+</div>

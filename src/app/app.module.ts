@@ -14,6 +14,8 @@ import { MainComponent } from './components/common/main/main.component';
 import { SliderComponent } from './components/common/main-items/slider/slider.component';
 import { MainTextComponent } from './components/common/main-items/main-text/main-text.component';
 import { FooterComponent } from './components/common/footer/footer.component';
+import { PromotionBoxComponent } from './components/common/promotion/promotion-box/promotion-box.component';
+
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { FooterComponent } from './components/common/footer/footer.component';
     MainComponent,
     SliderComponent,
     MainTextComponent,
-    FooterComponent
+    FooterComponent,
+    PromotionBoxComponent
+    
   ],
   imports: [
     BrowserModule,
