@@ -1,0 +1,9 @@
+{
+    "promotion-box": [
+    {"id": 1, "image": "images/promotion/trap-car.jpg", "title": "Samochodzik pułapka kraken city", "price": "50", "promotionPrice": "40"},
+    {"id": 2, "image": "images/promotion/classic-car.jpg", "title": "Zestaw klasyki Hot wheels", "price": "40", "promotionPrice": "30"},
+    {"id": 3, "image": "images/promotion/czuczu-train.jpg", "title": "Zestaw puzzli z pociągami", "price": "30", "promotionPrice": "25"},
+    {"id": 4, "image": "images/promotion/dino-loop.jpg", "title": "Karuzela dinozaura", "price": "60", "promotionPrice": "40"},
+    {"id": 5, "image": "images/promotion/classic-car.jpg", "title": "Zestaw klasyki Hot wheels", "price": "40", "promotionPrice": "30"}
+]
+}
