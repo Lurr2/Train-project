@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-promotion-box',
@@ -10,10 +11,16 @@ export class PromotionBoxComponent implements OnInit {
 
   public promotionPrice: number = 0;
 
-  constructor() {}
+  constructor(private translate: TranslateService) {}
 
+  currentLanguageIs(language: string): boolean {
+    return this.translate.currentLang === language;
+  }
   ngOnInit(): void {
-    console.log(this.promotionData.title);
+    const browserLang = navigator.language.split('-')[0];
+    this.translate.setDefaultLang(browserLang);
+    this.translate.use(browserLang);
+
     this.calculateDiscount();
   }
   public calculateDiscount() {

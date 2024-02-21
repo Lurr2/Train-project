@@ -1,7 +1,12 @@
 <div class="product-promotion">
   <img src="{{ promotionData.image }}" alt="Product Image" />
   <div class="prices">
-    <h2 class="item-name">{{ promotionData.title }}</h2>
+    <h2 *ngIf="currentLanguageIs('pl')" class="item-name">
+      {{ promotionData.title }}
+    </h2>
+    <h2 *ngIf="!currentLanguageIs('pl')" class="item-name" #english>
+      {{ promotionData.titleEng }}
+    </h2>
     <p>
       <span class="original-price">{{
         promotionData.price | currency : "USD"
