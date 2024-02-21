@@ -19,6 +19,6 @@ export class PromotionBoxComponent implements OnInit {
   public calculateDiscount() {
     this.promotionPrice =
       this.promotionData.price -
-      this.promotionData.price * this.promotionData.discount;
+      this.promotionData.price * this.promotionData.discountValue;
   }
 }

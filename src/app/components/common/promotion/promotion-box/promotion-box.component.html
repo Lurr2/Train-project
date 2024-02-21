@@ -3,8 +3,12 @@
   <div class="prices">
     <h2 class="item-name">{{ promotionData.title }}</h2>
     <p>
-      <span class="original-price">{{ promotionData.price }}</span>
-      <span class="promotion-price">{{ promotionPrice }}</span>
+      <span class="original-price">{{
+        promotionData.price | currency : "USD"
+      }}</span>
+      <span class="promotion-price">{{
+        promotionPrice | currency : "USD"
+      }}</span>
     </p>
   </div>
 </div>
