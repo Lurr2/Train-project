@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../images/promotion/trap-car.jpg",
+    "image": "assets/images/promotion/trap-car.jpg",
     "title": "Samochodzik pułapka kraken city",
     "titleEng": "Kraken City Trap Car",
     "price": "50",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "images/promotion-box/classic-car.jpg",
+    "image": "assets/images/promotion/classic-car.jpg",
     "title": "Zestaw klasyki Hot wheels",
     "titleEng": "Hot Wheels Classic Set",
     "price": "40",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "images/promotion/czuczu-train.jpg",
+    "image": "assets/images/promotion/czuczu-train.jpg",
     "title": "Zestaw puzzli z pociągami",
     "titleEng": "Train Puzzle Set",
     "price": "30",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "images/promotion/dino-loop.jpg",
+    "image": "assets/images/promotion/dino-loop.jpg",
     "title": "Karuzela dinozaura",
     "titleEng": "Dinosaur Carousel",
     "price": "60",
@@ -33,9 +33,41 @@
   },
   {
     "id": 5,
-    "image": "images/promotion/classic-car.jpg",
-    "title": "Zestaw klasyki Hot wheels",
-    "titleEng": "Hot Wheels Classic Set",
+    "image": "assets/images/promotion/Railcar-train.jpg",
+    "title": "Kolej z serii Railcar",
+    "titleEng": "Railcar Series Train",
+    "price": "40",
+    "discountValue": 0.2
+  },
+  {
+    "id": 6,
+    "image": "assets/images/promotion/railking-trail.jpg",
+    "title": "Ścieżka według Railking",
+    "titleEng": "Railking Track",
+    "price": "40",
+    "discountValue": 0.2
+  },
+  {
+    "id": 7,
+    "image": "assets/images/promotion/spiral-car.jpg",
+    "title": "Szalona spirala Hot Wheels",
+    "titleEng": "Hot Wheels Crazy Spiral",
+    "price": "40",
+    "discountValue": 0.2
+  },
+  {
+    "id": 8,
+    "image": "assets/images/promotion/thomas-friends-train.jpg",
+    "title": "Pociąg z serii Tomek i przyjaciele",
+    "titleEng": "Thomas & Friends Series Train",
+    "price": "40",
+    "discountValue": 0.2
+  },
+  {
+    "id": 9,
+    "image": "assets/images/promotion/thomas-train.jpg",
+    "title": "Pociąg Tomek",
+    "titleEng": "Thomas Train",
     "price": "40",
     "discountValue": 0.2
   }
