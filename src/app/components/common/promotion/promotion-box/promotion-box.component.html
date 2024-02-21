@@ -1,0 +1,9 @@
+<div class="product-promotion">
+    <img [src]="imagePath" alt="Product Image">
+    <div class="prices">
+      <h2 class="item-name">{{'promotion-box-name-1' | translate}}</h2>  
+     <p> <span class="original-price">{{ price | currency }}</span>
+      <span class="promotion-price">{{ promotionPrice | currency }}</span>
+    </p>
+    </div>
+  </div>
