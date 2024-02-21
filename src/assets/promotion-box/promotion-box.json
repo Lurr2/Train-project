@@ -1,42 +1,42 @@
 [
-    {
-      "id": 1,
-      "image": "images/promotion/trap-car.jpg",
-      "title": "Samochodzik pułapka kraken city",
-      "titleEng": "Kraken City Trap Car",
-      "price": "50",
-      "discountValue": 0.2
-    },
-    {
-      "id": 2,
-      "image": "images/promotion/classic-car.jpg",
-      "title": "Zestaw klasyki Hot wheels",
-      "titleEng": "Hot Wheels Classic Set",
-      "price": "40",
-      "discountValue": 0.2
-    },
-    {
-      "id": 3,
-      "image": "images/promotion/czuczu-train.jpg",
-      "title": "Zestaw puzzli z pociągami",
-      "titleEng": "Train Puzzle Set",
-      "price": "30",
-      "discountValue": 0.2
-    },
-    {
-      "id": 4,
-      "image": "images/promotion/dino-loop.jpg",
-      "title": "Karuzela dinozaura",
-      "titleEng": "Dinosaur Carousel",
-      "price": "60",
-      "discountValue": 0.2
-    },
-    {
-      "id": 5,
-      "image": "images/promotion/classic-car.jpg",
-      "title": "Zestaw klasyki Hot wheels",
-      "titleEng": "Hot Wheels Classic Set",
-      "price": "40",
-      "discountValue": 0.2
-    }
-  ]
+  {
+    "id": 1,
+    "image": "../images/promotion/trap-car.jpg",
+    "title": "Samochodzik pułapka kraken city",
+    "titleEng": "Kraken City Trap Car",
+    "price": "50",
+    "discountValue": 0.2
+  },
+  {
+    "id": 2,
+    "image": "images/promotion-box/classic-car.jpg",
+    "title": "Zestaw klasyki Hot wheels",
+    "titleEng": "Hot Wheels Classic Set",
+    "price": "40",
+    "discountValue": 0.2
+  },
+  {
+    "id": 3,
+    "image": "images/promotion/czuczu-train.jpg",
+    "title": "Zestaw puzzli z pociągami",
+    "titleEng": "Train Puzzle Set",
+    "price": "30",
+    "discountValue": 0.2
+  },
+  {
+    "id": 4,
+    "image": "images/promotion/dino-loop.jpg",
+    "title": "Karuzela dinozaura",
+    "titleEng": "Dinosaur Carousel",
+    "price": "60",
+    "discountValue": 0.2
+  },
+  {
+    "id": 5,
+    "image": "images/promotion/classic-car.jpg",
+    "title": "Zestaw klasyki Hot wheels",
+    "titleEng": "Hot Wheels Classic Set",
+    "price": "40",
+    "discountValue": 0.2
+  }
+]

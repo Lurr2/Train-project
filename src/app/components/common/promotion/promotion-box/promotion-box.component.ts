@@ -13,6 +13,7 @@ export class PromotionBoxComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    console.log(this.promotionData.title);
     this.calculateDiscount();
   }
   public calculateDiscount() {
