@@ -1,9 +1,10 @@
-<div class="product-promotion">
-    <img [src]="imagePath" alt="Product Image">
-    <div class="prices">
-      <h2 class="item-name">{{'promotion-box-name-1' | translate}}</h2>  
-     <p> <span class="original-price">{{ price | currency }}</span>
-      <span class="promotion-price">{{ promotionPrice | currency }}</span>
+<div *ngFor="let item of dataPromotion" class="product-promotion">
+  <img src="assets/images/promotion/trap-car.jpg" alt="Product Image" />
+  <div class="prices">
+    <h2 class="item-name">some some</h2>
+    <p>
+      <span class="original-price">5zl</span>
+      <span class="promotion-price">3zl</span>
     </p>
-    </div>
   </div>
+</div>
