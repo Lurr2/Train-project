@@ -15,6 +15,7 @@ import { SliderComponent } from './components/common/main-items/slider/slider.co
 import { MainTextComponent } from './components/common/main-items/main-text/main-text.component';
 import { FooterComponent } from './components/common/footer/footer.component';
 import { PromotionBoxComponent } from './components/common/promotion/promotion-box/promotion-box.component';
+import { PromotionBoxContentComponent } from './components/common/promotion/promotion-box-content/promotion-box-content.component';
 
 
 
@@ -30,7 +31,8 @@ import { PromotionBoxComponent } from './components/common/promotion/promotion-b
     SliderComponent,
     MainTextComponent,
     FooterComponent,
-    PromotionBoxComponent
+    PromotionBoxComponent,
+    PromotionBoxContentComponent
     
   ],
   imports: [
