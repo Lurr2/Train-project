@@ -1,3 +1,8 @@
+.container {
+  &-title {
+    padding: 10px;
+  }
+}
 .intro {
   display: flex;
   align-items: center;
