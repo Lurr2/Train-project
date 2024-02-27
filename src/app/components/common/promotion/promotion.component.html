@@ -6,9 +6,7 @@
     ></app-promotion-box>
   </ng-container>
 </div>
-<div>
-  <button *ngIf="!isVisible" (click)="showBox()" class="back-button">
-    Wróć do kart
-  </button>
+<div *ngIf="!isVisible">
+  <button (click)="showBox()" class="back-button">Wróć do kart</button>
   <app-promotion-box-content></app-promotion-box-content>
 </div>
