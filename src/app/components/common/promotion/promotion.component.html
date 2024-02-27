@@ -8,5 +8,7 @@
 </div>
 <div *ngIf="!isVisible">
   <button (click)="showBox()" class="back-button">Wróć do kart</button>
-  <app-promotion-box-content></app-promotion-box-content>
+  <app-promotion-box-content
+    [dataContent]="dataPromotion[0]"
+  ></app-promotion-box-content>
 </div>

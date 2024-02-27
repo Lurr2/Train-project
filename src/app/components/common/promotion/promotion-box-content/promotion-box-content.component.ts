@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-promotion-box-content',
   templateUrl: './promotion-box-content.component.html',
-  styleUrls: ['./promotion-box-content.component.scss']
+  styleUrls: ['./promotion-box-content.component.scss'],
 })
 export class PromotionBoxContentComponent implements OnInit {
+  @Input() dataContent: any = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+    console.log('dataContent');
   }
-
 }
