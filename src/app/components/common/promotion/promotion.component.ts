@@ -8,6 +8,14 @@ import { PromotionBoxService } from 'src/app/promotion-box.service';
 })
 export class PromotionComponent implements OnInit {
   dataPromotion: any;
+  public isVisible = true;
+
+  toggleBox() {
+    this.isVisible = false;
+  }
+  showBox() {
+    this.isVisible = true;
+  }
 
   constructor(private promotionBoxServeice: PromotionBoxService) {}
 
