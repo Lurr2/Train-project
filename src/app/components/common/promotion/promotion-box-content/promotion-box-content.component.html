@@ -1,56 +1,74 @@
-<div class="container">
-  <h1 class="container-title">Samochód zabawka hot wheels kraken city</h1>
+<div *ngIf="currentLanguageIs('pl')" class="container">
+  <h1 class="container-title">{{ dataContent.description.title }}</h1>
   <div class="intro">
-    <img
-      class="intro-image"
-      src="assets/images/promotion/trap-car.jpg"
-      alt=""
-    />
+    <img class="intro-image" src="{{ dataContent.image }}" alt="" />
     <span class="intro-text">
       <p>
-        Hot Wheels Kraken City to niesamowita zabawka dla miłośników motoryzacji
-        i ekscytujących przygód. Ten dynamiczny zestaw zabawek przenosi dzieci w
-        świat wypełniony ekscytującymi wyścigami i niebezpiecznymi akcjami.
+        {{ dataContent.description.paragraphs.first }}
       </p>
-      <h2 class="intro-price">150zł</h2>
-      <h2 class="intro-price-discounted">53zł</h2>
-      <button class="intro-button">Kontakt telefoniczny</button>
+      <h2 class="intro-price">{{ dataContent.price | currency : "USD" }}</h2>
+      <h2 class="intro-price-discounted">123</h2>
+      <button class="intro-button">
+        {{ "promotion-content-button-text" | translate }}
+      </button>
     </span>
   </div>
 
   <div class="content">
-    <h2 class="content-title">Opis produktu</h2>
+    <h2 class="content-title">
+      {{ "promotion-content-description-title" | translate }}
+    </h2>
     <p class="content-text">
-      Hot Wheels Kraken City to niesamowita zabawka dla miłośników motoryzacji i
-      ekscytujących przygód. Ten dynamiczny zestaw zabawek przenosi dzieci w
-      świat wypełniony ekscytującymi wyścigami i niebezpiecznymi akcjami.
+      {{ dataContent.description.paragraphs.first }}
     </p>
     <p class="content-text">
-      Kraken City to zestaw, który wyróżnia się swoją wyjątkową koncepcją -
-      inspirowany morskimi motywami i mitycznymi stworzeniami. Głównym punktem
-      tego zestawu jest niesamowity tor wyścigowy w kształcie potężnego
-      kłębowiska kalmarów. Dzieci mogą ścigać się po krętych trasach, które
-      imitują ruchy morskich fal i zakręty, zapewniając niezapomniane przeżycia
-      podczas każdej rundy.
+      {{ dataContent.description.paragraphs.second }}
     </p>
     <p class="content-text">
-      Zestaw Hot Wheels Kraken City zawiera także różnorodne akcesoria i
-      elementy, które dodają jeszcze więcej dynamiki do zabawy. Możesz
-      spodziewać się tuneli, skoków, pułapek oraz specjalnych punktów
-      startowych, które sprawią, że wyścigi będą jeszcze bardziej ekscytujące.
-      Dodatkowo, w zestawie znajdują się niezwykłe pojazdy Hot Wheels
-      inspirowane morskimi stworzeniami, które zapewnią nie tylko wyjątkową
-      wydajność, ale także estetykę pasującą do tematu zestawu.
+      {{ dataContent.description.paragraphs.third }}
     </p>
     <p class="content-text">
-      Hot Wheels Kraken City to nie tylko zabawka, ale również sposób na
-      rozwijanie kreatywności i wyobraźni dziecka. Dzięki możliwościom
-      konstruowania własnych tras i scenariuszy wyścigowych, dzieci mogą
-      eksperymentować, rozwijać umiejętności planowania oraz uczyć się pracy
-      zespołowej poprzez wspólne tworzenie i udoskonalanie tras. W skrócie, Hot
-      Wheels Kraken City to fantastyczna zabawka, która zapewni dzieciom godziny
-      zabawy, pełne emocji i niezapomnianych przygód, jednocześnie rozwijając
-      ich wyobraźnię i umiejętności kreatywne.
+      {{ dataContent.description.paragraphs.fourth }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.fifth }}
+    </p>
+  </div>
+</div>
+<div *ngIf="currentLanguageIs('en')" class="container">
+  <h1 class="container-title">{{ dataContent.description.titleEng }}</h1>
+  <div class="intro">
+    <img class="intro-image" src="{{ dataContent.image }}" alt="" />
+    <span class="intro-text">
+      <p>
+        {{ dataContent.description.paragraphsEng.first }}
+      </p>
+      <h2 class="intro-price">{{ dataContent.price | currency : "USD" }}</h2>
+      <h2 class="intro-price-discounted">123</h2>
+      <button class="intro-button">
+        {{ "promotion-content-button-text" | translate }}
+      </button>
+    </span>
+  </div>
+
+  <div class="content">
+    <h2 class="content-title">
+      {{ "promotion-content-description-title" | translate }}
+    </h2>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.first }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.second }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.third }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.fourth }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.fifth }}
     </p>
   </div>
 </div>

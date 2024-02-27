@@ -1,7 +1,7 @@
 <div *ngIf="isVisible" class="container">
   <ng-container *ngFor="let card of dataPromotion">
     <app-promotion-box
-      (click)="toggleBox()"
+      (click)="toggleBox(card)"
       [promotionData]="card"
     ></app-promotion-box>
   </ng-container>
@@ -9,6 +9,6 @@
 <div *ngIf="!isVisible">
   <button (click)="showBox()" class="back-button">Wróć do kart</button>
   <app-promotion-box-content
-    [dataContent]="dataPromotion[0]"
+    [dataContent]="detailsElement"
   ></app-promotion-box-content>
 </div>
