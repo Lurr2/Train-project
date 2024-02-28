@@ -1,0 +1,55 @@
+.container {
+  &-title {
+    padding: 10px;
+  }
+}
+.intro {
+  display: flex;
+  align-items: center;
+  &-image {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+  &-text {
+    flex-direction: column;
+    padding: 60px;
+  }
+  &-price {
+    padding: 10px;
+    &-discounted {
+      text-decoration: line-through;
+      padding: 5px 20px;
+    }
+  }
+  &-button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+  }
+
+  &-button:hover {
+    background-color: #f082ac;
+    cursor: pointer;
+  }
+}
+.content {
+  margin: 5px 130px;
+  &-title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  &-text {
+    padding-bottom: 10px;
+  }
+}

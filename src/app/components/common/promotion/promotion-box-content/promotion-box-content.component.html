@@ -1,0 +1,74 @@
+<div *ngIf="currentLanguageIs('pl')" class="container">
+  <h1 class="container-title">{{ dataContent.description.title }}</h1>
+  <div class="intro">
+    <img class="intro-image" src="{{ dataContent.image }}" alt="" />
+    <span class="intro-text">
+      <p>
+        {{ dataContent.description.paragraphs.first }}
+      </p>
+      <h2 class="intro-price">{{ dataContent.price | currency : "USD" }}</h2>
+      <h2 class="intro-price-discounted">123</h2>
+      <button class="intro-button">
+        {{ "promotion-content-button-text" | translate }}
+      </button>
+    </span>
+  </div>
+
+  <div class="content">
+    <h2 class="content-title">
+      {{ "promotion-content-description-title" | translate }}
+    </h2>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.first }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.second }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.third }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.fourth }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphs.fifth }}
+    </p>
+  </div>
+</div>
+<div *ngIf="currentLanguageIs('en')" class="container">
+  <h1 class="container-title">{{ dataContent.description.titleEng }}</h1>
+  <div class="intro">
+    <img class="intro-image" src="{{ dataContent.image }}" alt="" />
+    <span class="intro-text">
+      <p>
+        {{ dataContent.description.paragraphsEng.first }}
+      </p>
+      <h2 class="intro-price">{{ dataContent.price | currency : "USD" }}</h2>
+      <h2 class="intro-price-discounted">123</h2>
+      <button class="intro-button">
+        {{ "promotion-content-button-text" | translate }}
+      </button>
+    </span>
+  </div>
+
+  <div class="content">
+    <h2 class="content-title">
+      {{ "promotion-content-description-title" | translate }}
+    </h2>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.first }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.second }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.third }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.fourth }}
+    </p>
+    <p class="content-text">
+      {{ dataContent.description.paragraphsEng.fifth }}
+    </p>
+  </div>
+</div>
