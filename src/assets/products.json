@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "type": "promotion",
     "image": "assets/images/promotion/trap-car.jpg",
     "title": "Samochodzik pułapka kraken city",
     "titleEng": "Kraken City Trap Car",
@@ -25,6 +26,7 @@
   },
   {
     "id": 2,
+    "type": "promotion",
     "image": "assets/images/promotion/classic-car.jpg",
     "title": "Zestaw klasyki Hot wheels",
     "titleEng": "Hot Wheels Classic Set",
@@ -49,6 +51,7 @@
   },
   {
     "id": 3,
+    "type": "promotion",
     "image": "assets/images/promotion/czuczu-train.jpg",
     "title": "Zestaw puzzli z pociągami",
     "titleEng": "Train Puzzle Set",
@@ -73,6 +76,7 @@
   },
   {
     "id": 4,
+    "type": "promotion",
     "image": "assets/images/promotion/dino-loop.jpg",
     "title": "Karuzela dinozaura",
     "titleEng": "Dinosaur Carousel",
@@ -97,6 +101,7 @@
   },
   {
     "id": 5,
+    "type": "promotion",
     "image": "assets/images/promotion/Railcar-train.jpg",
     "title": "Kolej z serii Railcar",
     "titleEng": "Railcar Series Train",
@@ -121,6 +126,7 @@
   },
   {
     "id": 6,
+    "type": "promotion",
     "image": "assets/images/promotion/railking-trail.jpg",
     "title": "Ścieżka według Railking",
     "titleEng": "Railking Track",
@@ -145,6 +151,7 @@
   },
   {
     "id": 7,
+    "type": "promotion",
     "image": "assets/images/promotion/spiral-car.jpg",
     "title": "Szalona spirala Hot Wheels",
     "titleEng": "Hot Wheels Crazy Spiral",
@@ -169,6 +176,7 @@
   },
   {
     "id": 8,
+    "type": "promotion",
     "image": "assets/images/promotion/thomas-friends-train.jpg",
     "title": "Pociąg z serii Tomek i przyjaciele",
     "titleEng": "Thomas & Friends Series Train",
@@ -193,6 +201,7 @@
   },
   {
     "id": 9,
+    "type": "promotion",
     "image": "assets/images/promotion/thomas-train.jpg",
     "title": "Pociąg Tomek",
     "titleEng": "Thomas Train",
@@ -214,6 +223,215 @@
         "third": "Tomek Train is made of durable materials, ensuring long-lasting play. Children can drive the train on various surfaces, discovering new tracks and exploring fantastic landscapes.",
         "fourth": "This toy not only provides entertainment but also fosters the imagination and creativity of the child. Through playing with the Tomek train, children learn cooperation, develop storytelling skills, and learn to enjoy magical moments spent on the tracks.",
         "fifth": "Tomek Train is the perfect gift for every little one who loves adventures with Thomas and Friends and dreams of their own journeys in the fascinating world of railways."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/20-car-pack.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/20-car-pack.jpg",
+    "title": "Paczka 20 samochodzików hot wheels",
+    "titleEng": "The pack of 20 Hot Wheels cars.",
+    "price": "25",
+    "description": {
+      "title": "Paczka 20 samochodzików",
+      "titleEng": "The pack of 20 Hot Wheels cars.",
+      "paragraphs": {
+        "first": "Zapraszamy do ekscytującej przygody z Paczką 20 samochodzików Hot Wheels! Ta kolekcja niezwykłych pojazdów to marzenie każdego miłośnika motoryzacji i fanów akcji na drodze.",
+        "second": "W Paczce 20 samochodzików znajdziesz różnorodność wspaniałych modeli, które rozbudzą Twoją wyobraźnię i zapewnią niezapomnianą zabawę. Od klasycznych muscle carów po futurystyczne super samochody, każdy pojazd w tej paczce wyróżnia się nie tylko estetyką, ale również wysoką jakością wykonania, charakterystyczną dla marki Hot Wheels.",
+        "third": "Niech Twoje wyścigi na torach Hot Wheels staną się jeszcze bardziej emocjonujące dzięki temu zestawowi samochodzików. Pozwól swojej kreatywności rozkwitnąć, tworząc własne trasy i scenariusze, w których te niesamowite pojazdy będą odgrywać główne role.",
+        "fourth": "Paczka 20 samochodzików Hot Wheels to idealny prezent dla młodych entuzjastów motoryzacji i kolekcjonerów, którzy chcą poszerzyć swoją flotę o najnowsze i najbardziej ekscytujące modele. Przygotuj się na niezapomniane przygody na torze i niech świat Hot Wheels stanie się Twoim ulubionym miejscem do zabawy!"
+      },
+      "paragraphsEng": {
+        "first": "Welcome to an exciting adventure with the Pack of 20 Hot Wheels cars! This collection of extraordinary vehicles is every automotive enthusiast's and action-packed road fan's dream.",
+        "second": "In the Pack of 20 Hot Wheels cars, you'll find a variety of fantastic models that will ignite your imagination and provide unforgettable fun. From classic muscle cars to futuristic supercars, each vehicle in this pack stands out not only with its aesthetics but also with the high-quality craftsmanship characteristic of the Hot Wheels brand.",
+        "third": "Let your races on Hot Wheels tracks become even more thrilling with this set of cars. Allow your creativity to flourish by creating your own tracks and scenarios where these incredible vehicles will play the main roles.",
+        "fourth": "The Pack of 20 Hot Wheels cars is the perfect gift for young automotive enthusiasts and collectors who want to expand their fleet with the latest and most exciting models. Get ready for unforgettable adventures on the track, and let the world of Hot Wheels become your favorite place to play!"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/Bigijs-rail-station-train.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/Bigijs-rail-station-train.jpg",
+    "title": "Stacja kolejowa z serii Bigijs",
+    "titleEng": "The railway station from the Bigijs series.",
+    "price": "23",
+    "description": {
+      "title": "Stacja kolejowa z serii Bigijs",
+      "titleEng": "The railway station from the Bigijs series.",
+      "paragraphs": {
+        "first": "Stacja kolejowa z serii Bigijs to niezwykła zabawka, która przenosi dzieci w fascynujący świat kolejowych przygód. Ta kolorowa i interaktywna stacja to centrum wszystkich aktywności kolejowych w świecie Bigijsów.",
+        "second": "Zbudowana z dbałością o detale, stacja kolejowa oferuje wiele możliwości zabawy i eksploracji. Dzieci mogą obserwować przyjazd i odjazd pociągów, kupować bilety, czekać na peronie na swoje podróże oraz monitorować ruch kolejowy za pomocą różnych mechanizmów i dźwigni.",
+        "third": "Ta wspaniała zabawka nie tylko rozwija wyobraźnię i kreatywność, ale także uczy dzieci podstawowych pojęć związanych z funkcjonowaniem kolejowego transportu. Dzięki Stacji kolejowej z serii Bigijs dzieci mogą przenieść się w magiczny świat podróży pociągiem, gdzie każdy dzień pełen jest nowych przygód i odkryć."
+      },
+      "paragraphsEng": {
+        "first": "The Bigijs Railway Station is an extraordinary toy that transports children into the fascinating world of railway adventures. This colorful and interactive station serves as the hub for all railway activities in the world of Bigijs.",
+        "second": "Built with attention to detail, the railway station offers numerous opportunities for play and exploration. Children can observe the arrival and departure of trains, purchase tickets, wait on the platform for their journeys, and monitor railway traffic using various mechanisms and levers.",
+        "third": "This wonderful toy not only fosters imagination and creativity but also teaches children basic concepts related to the functioning of railway transport. Thanks to the Bigijs Railway Station, children can immerse themselves in the magical world of train travel, where every day is full of new adventures and discoveries."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/Castorland-puzzle-train.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/Castorland-puzzle-train.jpg",
+    "title": "Puzzle Castorland",
+    "titleEng": "Castorland Puzzle Pack",
+    "price": "11",
+    "description": {
+      "title": "Puzzle Castorland",
+      "titleEng": "Castorland Puzzle Pack",
+      "paragraphs": {
+        "first": "Puzzle Castorland to idealny sposób na spędzenie czasu dla miłośników łamigłówek i układanek. Każde puzzle tej renomowanej marki to wyjątkowy wybór, który zapewni zarówno przyjemność, jak i wyzwanie.",
+        "second": "Zestawiając razem kawałki, odkrywasz piękne obrazy o różnorodnych motywach - od malowniczych krajobrazów po urocze zwierzęta. Dzięki wysokiej jakości wydrukom i starannie wyciętym kawałkom, układanie puzzli staje się nie tylko rozrywką, ale także relaksem dla umysłu.",
+        "third": "Puzzle Castorland są doskonałym pomysłem na prezent dla dzieci, dorosłych oraz całych rodzin. Zapewnij sobie godziny radości i satysfakcji, układając te wspaniałe układanki, które po złożeniu tworzą prawdziwe dzieła sztuki."
+      },
+      "paragraphsEng": {
+        "first": "Puzzle Castorland is the perfect way to spend time for fans of puzzles and jigsaw enthusiasts. Each puzzle from this renowned brand is a unique choice that provides both enjoyment and challenge.",
+        "second": "By putting the pieces together, you discover beautiful images with various themes - from scenic landscapes to adorable animals. With high-quality prints and carefully cut pieces, assembling puzzles becomes not only entertainment but also a relaxation for the mind.",
+        "third": "Castorland puzzles are an excellent gift idea for children, adults, and entire families. Ensure yourself hours of joy and satisfaction by assembling these wonderful puzzles, which, once completed, create true works of art."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/Hot-wheel-lamborgini.png",
+    "inspirationImagePopup": "assets/images/inspiration/Hot-wheel-lamborgini.png",
+    "title": "Samochodzik Lamborgini hot wheels",
+    "titleEng": "Lamborgini hot wheels car",
+    "price": "8",
+    "description": {
+      "title": "Samochodzik Lamborgini hot wheels",
+      "titleEng": "Lamborgini hot wheels car",
+      "paragraphs": {
+        "first": "Samochodzik Lamborghini Hot Wheels to niezwykła zabawka dla małych i dużych pasjonatów motoryzacji. Ta precyzyjnie wykonana replika legendarnego włoskiego supersamochodu zapewnia nie tylko godziny wspaniałej zabawy, ale także przenosi nas w świat ekscytujących wyścigów i adrenaliny.",
+        "second": "Zaprojektowany z dbałością o szczegóły, samochodzik Lamborghini Hot Wheels imponuje nie tylko swoim wyglądem, ale również doskonałymi osiągami na torze. Dzięki wyjątkowej jakości wykonania i autentycznemu designowi, każde dziecko może poczuć się jak prawdziwy kierowca wyścigowy, pokonując zakręty i docierając do mety jako zwycięzca.",
+        "third": "To nie tylko zabawka, to także inspiracja do marzeń o nieograniczonych możliwościach i pasji do szybkiej jazdy. Samochodzik Lamborghini Hot Wheels to idealny prezent dla każdego fana motoryzacji, który pragnie poczuć dreszczyk emocji podczas ekscytujących wyścigów na swoim torze Hot Wheels."
+      },
+      "paragraphsEng": {
+        "first": "The Lamborghini Hot Wheels car is an extraordinary toy for both young and adult automotive enthusiasts. This precisely crafted replica of the legendary Italian supercar not only provides hours of fantastic fun but also transports us into the world of exciting races and adrenaline.",
+        "second": "Designed with attention to detail, the Lamborghini Hot Wheels car impresses not only with its appearance but also with its excellent performance on the track. Thanks to its exceptional quality and authentic design, every child can feel like a real racing driver, tackling curves and reaching the finish line as a winner.",
+        "third": "It's not just a toy; it's also an inspiration for dreams of unlimited possibilities and a passion for fast driving. The Lamborghini Hot Wheels car is the perfect gift for any automotive fan who wants to experience the thrill of excitement during exciting races on their Hot Wheels track."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/knapford-thomas-train.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/knapford-thomas-train.jpg",
+    "title": "Stacja knapford z Tomka",
+    "titleEng": "Knapford Station from Thomas",
+    "price": "19",
+    "description": {
+      "title": "Stacja knapford z Tomka",
+      "titleEng": "Knapford Station from Thomas",
+      "paragraphs": {
+        "first": "Stacja Knapford z Tomka to niezwykła zabawka, która przenosi dzieci w magiczny świat popularnej serii animowanej Tomcio Paluch. Ta kolorowa i interaktywna stacja kolejowa to centralny punkt wielu przygód bohaterów z Knapford.",
+        "second": "Zbudowana z dbałością o detale, stacja Knapford oferuje wiele możliwości zabawy i eksploracji dla fanów serii. Dzieci mogą obserwować przyjazd i odjazd pociągów, odkrywać tajemnice stacji, a także organizować swoje własne przygody z ulubionymi postaciami z Tomka.",
+        "third": "Ta wspaniała zabawka nie tylko rozwija wyobraźnię i kreatywność, ale także umożliwia dzieciom przeniesienie się w świat swoich ulubionych bajkowych bohaterów. Stacja Knapford z Tomkiem to doskonały prezent dla każdego małego miłośnika Tomcia Palucha, który chce odtworzyć ulubione sceny z serii i przeżyć wiele niezapomnianych przygód na torach kolejowych."
+      },
+      "paragraphsEng": {
+        "first": "Knapford Station from Thomas is an extraordinary toy that transports children into the magical world of the popular animated series Thomas the Tank Engine. This colorful and interactive railway station serves as the central point for many adventures of the characters from Knapford.",
+        "second": "Built with attention to detail, Knapford Station offers plenty of opportunities for play and exploration for fans of the series. Children can observe the arrival and departure of trains, uncover the secrets of the station, and even create their own adventures with their favorite characters from Thomas.",
+        "third": "This wonderful toy not only stimulates imagination and creativity but also allows children to immerse themselves in the world of their favorite animated characters. Knapford Station with Thomas is a perfect gift for every little fan of Thomas the Tank Engine who wants to recreate favorite scenes from the series and experience many unforgettable adventures on the railway tracks."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/mutant-matel-machine.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/mutant-matel-machine.jpg",
+    "title": "Samochodzik mutant matel hot wheels",
+    "titleEng": "Mutant matel car hot wheels",
+    "price": "21",
+    "description": {
+      "title": "Samochodzik mutant matel hot wheels",
+      "titleEng": "Mutant matel car hot wheels",
+      "paragraphs": {
+        "first": "Samochodzik Mutant od Mattela z serii Hot Wheels to prawdziwa gratka dla miłośników niezwykłych i ekscytujących pojazdów! Ten niesamowity samochód łączy w sobie cechy klasycznego modelu Hot Wheels z futurystycznymi detalami, tworząc unikalny i dynamiczny design.",
+        "second": "Zbudowany z wytrzymałych materiałów i z dbałością o każdy detal, samochodzik Mutant zachwyca nie tylko swoim wyglądem, ale również doskonałą jakością wykonania. Dzięki dynamicznym kolorom i nietypowym kształtom, zapewnia on niezapomniane chwile zabawy i pełne emocji wyścigi na torze Hot Wheels.",
+        "third": "Ten nietuzinkowy pojazd to nie tylko zabawka, ale również inspiracja do kreatywnych przygód i wyobraźni. Pozwól swoim dzieciom wyruszyć w fantastyczne podróże i odkrywać nowe światy za kierownicą samochodzika Mutant od Mattela!"
+      },
+      "paragraphsEng": {
+        "first": "The Mutant car from Mattel's Hot Wheels series is a real treat for fans of extraordinary and exciting vehicles! This incredible car combines features of the classic Hot Wheels model with futuristic details, creating a unique and dynamic design.",
+        "second": "Built with durable materials and attention to every detail, the Mutant car captivates not only with its appearance but also with its excellent craftsmanship. With its dynamic colors and unconventional shapes, it provides unforgettable moments of fun and exciting races on the Hot Wheels track.",
+        "third": "This exceptional vehicle is not just a toy but also an inspiration for creative adventures and imagination. Let your children embark on fantastic journeys and discover new worlds behind the wheel of the Mutant car from Mattel!"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/shark-bundle.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/shark-bundle.jpg",
+    "title": "Rekinowa paczka Hot wheels",
+    "titleEng": "Shark Pack Hot Wheels",
+    "price": "32",
+    "description": {
+      "title": "Rekinowa paczka Hot wheels",
+      "titleEng": "Shark Pack Hot Wheels",
+      "paragraphs": {
+        "first": "Rekinowa paczka Hot Wheels to zestaw niezwykłych samochodzików, które przenoszą dzieci w świat ekscytujących wyścigów i przygód na torach Hot Wheels. Ten zestaw zawiera kilka modeli samochodów ozdobionych motywem rekinów, które dodają nieco dodatkowej adrenaliny do zabawy.",
+        "second": "Zbudowane z wysokiej jakości materiałów, samochodziki z rekinową paczką Hot Wheels charakteryzują się doskonałą wytrzymałością i wykończeniem. Dzięki różnorodności kolorów i designów, każdy z tych samochodzików zachwyca i zapewnia niezapomniane chwile zabawy.",
+        "third": "Rekinowa paczka Hot Wheels to nie tylko zestaw samochodzików, ale także inspiracja do kreatywnych wyścigów i przygód. Pozwól swoim dzieciom wyruszyć w morską wyprawę na torze Hot Wheels, gdzie rekinowe samochodziki będą prowadziły ich do zwycięstwa i niezapomnianej zabawy!"
+      },
+      "paragraphsEng": {
+        "first": "The Shark Pack Hot Wheels is a set of extraordinary toy cars that take children into the world of exciting races and adventures on Hot Wheels tracks. This set includes several car models decorated with a shark theme, adding an extra dose of adrenaline to the fun.",
+        "second": "Built with high-quality materials, the Hot Wheels Shark Pack cars are characterized by excellent durability and finishing. With a variety of colors and designs, each of these cars delights and provides unforgettable moments of play.",
+        "third": "The Shark Pack Hot Wheels is not just a set of toy cars but also an inspiration for creative races and adventures. Let your children embark on a marine adventure on the Hot Wheels track, where the shark-themed cars will lead them to victory and unforgettable fun!"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/shark-city.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/shark-city.jpg",
+    "title": "Rekinowe miasto Hot wheels",
+    "titleEng": "Shark City Hot Wheels",
+    "price": "28",
+    "description": {
+      "title": "Rekinowe miasto Hot wheels",
+      "titleEng": "Shark City Hot Wheels",
+      "paragraphs": {
+        "first": "Rekinowe Miasto Hot Wheels to niezwykła zabawka, która przenosi dzieci w świat ekscytujących przygód i wyścigów. To miejsce, gdzie rekinie rządzą ulicami, a każdy z zakątków miasta skrywa tajemnice i niespodzianki.",
+        "second": "Zbudowane z dbałością o detale, Rekinowe Miasto oferuje wiele możliwości zabawy i eksploracji. Dzieci mogą wcielać się w role kierowców wyścigowych i odkrywać zakamarki miasta, uczestnicząc w emocjonujących wyścigach i ścigając się z przyjaciółmi.",
+        "third": "Ta kolorowa i dynamiczna zabawka nie tylko rozwija wyobraźnię i kreatywność, ale także stymuluje zdolności motoryczne i umiejętności spostrzegawcze. Pozwól swojemu dziecku wyruszyć w morskie przygody na ulicach Rekinowego Miasta Hot Wheels i doświadczyć niezapomnianych chwil pełnych emocji i radości!"
+      },
+      "paragraphsEng": {
+        "first": "Shark City Hot Wheels is an extraordinary toy that transports children into a world of exciting adventures and races. It's a place where sharks rule the streets, and every corner of the city hides secrets and surprises.",
+        "second": "Built with attention to detail, Shark City offers many opportunities for play and exploration. Children can role-play as race car drivers and explore the city's nooks and crannies, participating in thrilling races and competing with friends.",
+        "third": "This colorful and dynamic toy not only fosters imagination and creativity but also stimulates motor skills and observational abilities. Allow your child to embark on maritime adventures on the streets of Shark City Hot Wheels and experience unforgettable moments full of excitement and joy!"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "type": "inspiration",
+    "inspirationImage": "assets/images/inspiration/Wooden-train-set.jpg",
+    "inspirationImagePopup": "assets/images/inspiration/Wooden-train-set.jpg",
+    "title": "Drewniany zestaw koleji",
+    "titleEng": "Wooden train set",
+    "price": "19",
+    "description": {
+      "title": "Drewniany zestaw koleji",
+      "titleEng": "Wooden train set",
+      "paragraphs": {
+        "first": "Drewniany zestaw kolei to klasyczna i wielofunkcyjna zabawka, która zapewni dzieciom wiele godzin kreatywnej zabawy i rozrywki. Ten kompletny zestaw zawiera różnorodne elementy, takie jak tory kolejowe, wagony, lokomotywy oraz dodatkowe akcesoria, które umożliwiają budowanie własnych tras i symulowanie prawdziwych podróży.",
+        "second": "Zbudowane z solidnego drewna, elementy zestawu są trwałe i bezpieczne dla dzieci. Zabawa drewnianą koleją rozwija zdolności manualne, koordynację ruchową oraz kreatywność, pozwalając dzieciom kreować własne scenariusze podróży i eksplorować różnorodne środowiska.",
+        "third": "Drewniany zestaw kolei to także świetna okazja do nauki podstawowych pojęć związanych z transportem kolejowym oraz rozwijania umiejętności spostrzegawczości i logicznego myślenia. Daj swojemu dziecku możliwość stworzenia własnego świata kolejowych przygód dzięki temu klasycznemu zestawowi zabawek!"
+      },
+      "paragraphsEng": {
+        "first": "The wooden train set is a classic and multifunctional toy that will provide children with many hours of creative play and entertainment. This complete set includes various elements such as railway tracks, carriages, locomotives, and additional accessories that allow for building custom routes and simulating real journeys.",
+        "second": "Constructed from sturdy wood, the set's elements are durable and safe for children. Playing with the wooden train set develops manual skills, motor coordination, and creativity, enabling children to create their own travel scenarios and explore various environments.",
+        "third": "The wooden train set is also a great opportunity to learn basic concepts related to railway transportation and to develop observational and logical thinking skills. Give your child the opportunity to create their own world of railway adventures with this classic set of toys!"
       }
     }
   }

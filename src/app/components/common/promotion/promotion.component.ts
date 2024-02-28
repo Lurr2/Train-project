@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PromotionBoxService } from 'src/app/promotion-box.service';
+import { ProductsService } from 'src/app/products.service';
 
 @Component({
   selector: 'app-promotion',
@@ -19,10 +19,10 @@ export class PromotionComponent implements OnInit {
     this.isVisible = true;
   }
 
-  constructor(private promotionBoxServeice: PromotionBoxService) {}
+  constructor(private productService: ProductsService) {}
 
   ngOnInit(): void {
-    this.promotionBoxServeice.getData().subscribe((data) => {
+    this.productService.getProducts('promotion').subscribe((data) => {
       this.dataPromotion = data;
     });
   }
