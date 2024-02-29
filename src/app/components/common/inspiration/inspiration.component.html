@@ -1,5 +1,14 @@
 <div class="container">
   <ng-container *ngFor="let card of inspirationData">
-    <app-inspiration-cards [DataInspiration]="card"></app-inspiration-cards>
+    <app-inspiration-cards
+      (click)="togglePopup()"
+      [DataInspiration]="card"
+    ></app-inspiration-cards>
   </ng-container>
+  <div class="popup" [class.active]="isPopupOpen">
+    <div class="popup-content">
+      <h2>Popup Content</h2>
+      <img src="{{ inspirationData.inspirationImage }}" alt="Product Image" />
+    </div>
+  </div>
 </div>
