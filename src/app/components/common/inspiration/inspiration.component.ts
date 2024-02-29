@@ -7,12 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inspiration.component.scss'],
 })
 export class InspirationComponent implements OnInit {
-  isPopupOpen: boolean = false;
   inspirationData: any;
+  isPopupOpen: boolean = false;
+  public contentInspiration: any = [];
 
   constructor(private productsService: ProductsService) {}
-  togglePopup() {
-    this.isPopupOpen = !this.isPopupOpen;
+  togglePopup(cards: any) {
+    this.contentInspiration = cards;
+    this.isPopupOpen = true;
   }
 
   ngOnInit(): void {
