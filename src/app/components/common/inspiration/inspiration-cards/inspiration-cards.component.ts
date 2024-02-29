@@ -7,8 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class InspirationCardsComponent implements OnInit {
   @Input() DataInspiration: any = [];
-
+  isHovered: boolean = false;
   constructor() {}
 
+  toggleHover() {
+    this.isHovered = !this.isHovered;
+  }
   ngOnInit(): void {}
 }
