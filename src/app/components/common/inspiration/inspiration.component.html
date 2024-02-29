@@ -1,1 +1,5 @@
-<p>inspiration works!</p>
+<div class="container">
+  <ng-container *ngFor="let card of inspirationData">
+    <app-inspiration-cards [DataInspiration]="card"></app-inspiration-cards>
+  </ng-container>
+</div>
