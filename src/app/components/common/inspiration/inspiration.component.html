@@ -5,7 +5,9 @@
       [DataInspiration]="cards"
     ></app-inspiration-cards>
   </ng-container>
-  <div class="popup" [class.active]="isPopupOpen">
+  <div class="popup" [class.active]="isPopupOpen" *ngIf="contentInspiration">
+    <div class="overlay" (click)="closePopup()"></div>
+    <button (click)="closePopup()" class="close-button">X</button>
     <div class="popup-image">
       <img
         src="{{ contentInspiration.inspirationImage }}"

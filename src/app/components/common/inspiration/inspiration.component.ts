@@ -1,5 +1,5 @@
 import { ProductsService } from './../../../products.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-inspiration',
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class InspirationComponent implements OnInit {
   inspirationData: any;
   isPopupOpen: boolean = false;
-  public contentInspiration: any = [];
+  public contentInspiration: any;
 
   constructor(private productsService: ProductsService) {}
   togglePopup(cards: any) {
@@ -21,5 +21,11 @@ export class InspirationComponent implements OnInit {
     this.productsService.getProducts('inspiration').subscribe((data) => {
       this.inspirationData = data;
     });
+  }
+  @Output() closed = new EventEmitter<void>();
+
+  closePopup() {
+    this.isPopupOpen = false;
+    this.closed.emit();
   }
 }
