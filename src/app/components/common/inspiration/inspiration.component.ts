@@ -10,6 +10,16 @@ export class InspirationComponent implements OnInit {
   inspirationData: any;
   isPopupOpen: boolean = false;
   public contentInspiration: any;
+  public isVisible = true;
+  public detailsElement: any = [];
+
+  toggleContent() {
+    this.isVisible = false;
+  }
+  showCard() {
+    this.isVisible = true;
+    this.isPopupOpen = false;
+  }
 
   constructor(private productsService: ProductsService) {}
   togglePopup(cards: any) {
