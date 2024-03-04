@@ -6,12 +6,15 @@
     ></app-inspiration-cards>
   </ng-container>
   <div class="popup" [class.active]="isPopupOpen">
-    <div class="popup-content">
-      <h2>Popup Content</h2>
+    <div class="popup-image">
       <img
         src="{{ contentInspiration.inspirationImage }}"
         alt="Product Image"
       />
+    </div>
+    <div class="popup-content">
+      <h2>{{ contentInspiration.title }}</h2>
+      <p>{{ contentInspiration.description.paragraphs.first }}</p>
     </div>
   </div>
 </div>
