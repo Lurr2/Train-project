@@ -13,6 +13,17 @@ export class InspirationComponent implements OnInit {
   public isVisible = true;
   public detailsElement: any = [];
 
+  constructor(private productsService: ProductsService) {}
+
+  ngOnInit(): void {
+    this.productsService.getProducts('inspiration').subscribe((data) => {
+      this.inspirationData = data;
+    });
+  }
+  togglePopup(cards: any) {
+    this.contentInspiration = cards;
+    this.isPopupOpen = true;
+  }
   toggleContent() {
     this.isVisible = false;
   }
@@ -21,21 +32,9 @@ export class InspirationComponent implements OnInit {
     this.isPopupOpen = false;
   }
 
-  constructor(private productsService: ProductsService) {}
-  togglePopup(cards: any) {
-    this.contentInspiration = cards;
-    this.isPopupOpen = true;
-  }
-
-  ngOnInit(): void {
-    this.productsService.getProducts('inspiration').subscribe((data) => {
-      this.inspirationData = data;
-    });
-  }
   @Output() closed = new EventEmitter<void>();
 
   closePopup() {
     this.isPopupOpen = false;
-    this.closed.emit();
   }
 }
