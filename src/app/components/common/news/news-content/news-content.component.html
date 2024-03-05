@@ -1,0 +1,22 @@
+<div class="container">
+  <h1 class="container-title">{{ newsDataContent.title }}</h1>
+  <div class="intro">
+    <img src="{{ newsDataContent.image }}" alt="product image" />
+    <span class="intro-text">
+      <p>
+        {{ newsDataContent.paragraphs.first }}
+      </p>
+      <img src="{{ newsDataContent.image_content1 }}" alt="product image" />
+      <p>
+        {{ newsDataContent.paragraphs.second }}
+      </p>
+      <p>
+        {{ newsDataContent.paragraphs.third }}
+      </p>
+      <img src="{{ newsDataContent.image_content2 }}" alt="product image" />
+      <p>
+        {{ newsDataContent.paragraphs.fourth }}
+      </p>
+    </span>
+  </div>
+</div>

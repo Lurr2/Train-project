@@ -18,6 +18,7 @@ import { PromotionBoxComponent } from './components/common/promotion/promotion-b
 import { PromotionBoxContentComponent } from './components/common/promotion/promotion-box-content/promotion-box-content.component';
 import { InspirationCardsComponent } from './components/common/inspiration/inspiration-cards/inspiration-cards.component';
 import { NewsCardComponent } from './components/common/news/news-card/news-card.component';
+import { NewsContentComponent } from './components/common/news/news-content/news-content.component';
 
 
 
@@ -36,7 +37,8 @@ import { NewsCardComponent } from './components/common/news/news-card/news-card.
     PromotionBoxComponent,
     PromotionBoxContentComponent,
     InspirationCardsComponent,
-    NewsCardComponent
+    NewsCardComponent,
+    NewsContentComponent
     
   ],
   imports: [
