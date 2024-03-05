@@ -1,1 +1,5 @@
-<p>news works!</p>
+<div class="container">
+  <ng-container *ngFor="let cards of newsData">
+    <app-news-card [Datanews]="cards"></app-news-card>
+  </ng-container>
+</div>
