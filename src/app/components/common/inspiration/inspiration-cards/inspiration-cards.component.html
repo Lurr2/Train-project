@@ -1,0 +1,9 @@
+<div
+  class="inspirationCard"
+  [ngClass]="{ 'card-dark': isHovered }"
+  (mouseenter)="toggleHover()"
+  (mouseleave)="toggleHover()"
+>
+  <img src="{{ DataInspiration.image }}" alt="Product Image" />
+  <button *ngIf="isHovered" class="center-button">Pokaż więcej</button>
+</div>

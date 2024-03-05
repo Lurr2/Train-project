@@ -1,1 +1,30 @@
-<p>inspiration works!</p>
+<div *ngIf="isVisible" class="container">
+  <ng-container *ngFor="let cards of inspirationData">
+    <app-inspiration-cards
+      (click)="togglePopup(cards)"
+      [DataInspiration]="cards"
+    ></app-inspiration-cards>
+  </ng-container>
+
+  <div class="popup" [class.active]="isPopupOpen" *ngIf="contentInspiration">
+    <!-- <div class="overlay" (click)="closePopup()"></div> -->
+    <button (click)="closePopup()" class="close-button">X</button>
+    <div class="popup-image">
+      <img
+        src="{{ contentInspiration.inspirationImagePopup }}"
+        alt="Product Image"
+      />
+    </div>
+    <div class="popup-content">
+      <h2>{{ contentInspiration.title }}</h2>
+      <p>{{ contentInspiration.description.paragraphs.first }}</p>
+      <button (click)="toggleContent()">Więcej</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="!isVisible">
+  <button (click)="showCard()" class="back-button">Wróć do kart</button>
+  <app-promotion-box-content
+    [dataContent]="contentInspiration"
+  ></app-promotion-box-content>
+</div>

@@ -16,6 +16,7 @@ import { MainTextComponent } from './components/common/main-items/main-text/main
 import { FooterComponent } from './components/common/footer/footer.component';
 import { PromotionBoxComponent } from './components/common/promotion/promotion-box/promotion-box.component';
 import { PromotionBoxContentComponent } from './components/common/promotion/promotion-box-content/promotion-box-content.component';
+import { InspirationCardsComponent } from './components/common/inspiration/inspiration-cards/inspiration-cards.component';
 
 
 
@@ -32,7 +33,8 @@ import { PromotionBoxContentComponent } from './components/common/promotion/prom
     MainTextComponent,
     FooterComponent,
     PromotionBoxComponent,
-    PromotionBoxContentComponent
+    PromotionBoxContentComponent,
+    InspirationCardsComponent
     
   ],
   imports: [
