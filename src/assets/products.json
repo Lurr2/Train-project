@@ -437,6 +437,191 @@
   },
   {
     "id": 19,
-    "type": "inspiration"
+    "type": "news",
+    "image": "assets/images/news/Black-car.jpg",
+    "image-content1": "assets/images/news/Content/red-car.jpg",
+    "image-content2": "assets/images/news/Content/yellow-car.jpg",
+    "title": "Hot Wheels o samochodzikach w naszym sklepie",
+    "titleEng": "News about Hot Wheels cars in our store",
+    "paragraphs": {
+      "first": "Cieszymy się ogłosić, że do naszego sklepu trafiła najnowsza kolekcja samochodzików Hot Wheels! Wśród nowych modeli znajdziesz wiele ekscytujących propozycji, które zachwycą zarówno kolekcjonerów, jak i miłośników zabawy. Oto kilka informacji na temat najnowszych dodatków do naszej oferty:",
+      "second": "Nowe modele Hot Wheels: Oferujemy szeroki wybór najnowszych modeli samochodzików Hot Wheels, które zachwycą każdego fana motoryzacji. Od klasycznych muscle carów po futurystyczne koncepty, nasza kolekcja zawiera coś dla każdego.",
+      "third": "Limitowane edycje i wyjątkowe serie: Nie przegap okazji, aby zdobyć limitowane edycje Hot Wheels, które są dostępne tylko przez krótki czas. Śledź naszą stronę internetową oraz nasze media społecznościowe, aby być na bieżąco z najnowszymi wydaniami i seriami tematycznymi.",
+      "fourth": "Zestawy i akcesoria: Oprócz samochodzików, oferujemy również różnorodne zestawy i akcesoria, które umożliwią jeszcze więcej zabawy z Hot Wheels. Znajdziesz tu między innymi zestawy torów, garaże, rampy i wiele więcej, które pozwolą na tworzenie własnych wyścigów i przygód."
+    },
+    "paragraphsEng": {
+      "first": "We are excited to announce that the latest collection of Hot Wheels cars has arrived in our store! Among the new models, you will find many exciting options that will delight both collectors and fans of fun. Here are some details about the newest additions to our offerings:",
+      "second": "New Hot Wheels models: We offer a wide selection of the latest Hot Wheels car models that will thrill every automotive enthusiast. From classic muscle cars to futuristic concepts, our collection has something for everyone.",
+      "third": "Limited editions and special series: Don't miss the opportunity to get limited edition Hot Wheels cars that are available for a short time only. Follow our website and social media channels to stay up-to-date with the latest releases and themed series.",
+      "fourth": "Sets and accessories: In addition to cars, we also offer a variety of sets and accessories that will allow even more fun with Hot Wheels. You will find track sets, garages, ramps, and much more, allowing you to create your own races and adventures."
+    }
+  },
+  {
+    "id": 20,
+    "type": "news",
+    "image": "assets/images/news/ice-ride.jpg",
+    "image-content1": "assets/images/news/Content/ice-ride-1.jpg",
+    "image-content2": "assets/images/news/Content/ice-ride-2.jpg",
+    "title": "Hot Wheels City Rajdowa Lodziarnia",
+    "titleEng": "Hot Wheels City Ice Cream Parlor Rally Set",
+    "paragraphs": {
+      "first": "Z wielką radością ogłaszamy przybycie zestawu Hot Wheels City Rajdowa Lodziarnia do naszego sklepu! Przygotuj się na ekscytujące przygody z tą nową, wspaniałą częścią linii Hot Wheels City. Oto kilka rzeczy, które warto wiedzieć o tym fantastycznym zestawie:",
+      "second": "Ekscytująca Akcja Wyścigowa: Zestaw Rajdowa Lodziarnia przynosi wysokooktanową akcję wyścigową do Hot Wheels City. Ścigaj swoje samochodziki przez pętle, skoki i zakręty, pokonując lodowe tory lodziarni.",
+      "third": "Interaktywne Funkcje: Ten zestaw jest wypełniony interaktywnymi funkcjami, które dodają emocji. Wyrzuć swoje samochodziki do akcji, wyzwij swoich przyjaciół na epickie wyścigi i obserwuj, jak wykonują grawitacyjne ewolucje.",
+      "fourth": "Cool Temat Lodziarni: Zestaw przedstawia wibracyjny temat lodziarni, kompletny z kolorowymi dekoracjami i detalami. Jest to idealne tło dla epickich przygód wyścigowych."
+    },
+    "paragraphsEng": {
+      "first": "We are thrilled to announce the arrival of the Hot Wheels City Ice Cream Parlor Rally Set in our store! Get ready for thrilling adventures with this exciting new addition to the Hot Wheels City lineup. Here's what you need to know about this fantastic set:",
+      "second": "Exciting Racing Action: The Ice Cream Parlor Rally Set brings high-speed racing action to Hot Wheels City. Race your cars through loops, jumps, and curves as you navigate the icy tracks of the ice cream parlor.",
+      "third": "Interactive Features: This set is packed with interactive features that add to the excitement. Launch your cars into action, challenge your friends to epic races, and watch as they perform gravity-defying stunts.",
+      "fourth": "Cool Ice Cream Parlor Theme: The set features a vibrant ice cream parlor theme, complete with colorful decorations and details. It's the perfect backdrop for epic racing adventures."
+    }
+  },
+  {
+    "id": 21,
+    "type": "news",
+    "image": "assets/images/news/skatepark.jpg",
+    "image-content1": "assets/images/news/Content/skatepark1.jpg",
+    "image-content2": "assets/images/news/Content/skatepark2.jpg",
+    "title": "Hot Wheels Skate Tony Hawk Śniadaniowa Rampa Zestaw",
+    "titleEng": "Hot Wheels Skate Tony Hawk Breakfast Ramp Set",
+    "paragraphs": {
+      "first": "Z wielką radością ogłaszamy przybycie zestawu Hot Wheels Skate Tony Hawk Śniadaniowa Rampa do naszego sklepu! Ten wyjątkowy zestaw, inspirowany legendarnym skateboardzistą Tony Hawk, zapewni Ci wiele ekscytujących chwil i niezapomnianą zabawę. Oto kilka rzeczy, które warto wiedzieć o tym fantastycznym zestawie:",
+      "second": "Ekscytujące Wyścigi na Deskorolce: Zestaw Śniadaniowa Rampa przenosi emocjonujące wyścigi na deskorolkach do świata Hot Wheels. Wyrusz na szaloną trasę, wykonując skoki i triki na rampach inspirowanych prawdziwymi miejscami do jazdy na deskorolce.",
+      "third": "Inspirujący Temat Tony'ego Hawka: Ten zestaw został stworzony we współpracy z legendą jazdy na deskorolce, Tony Hawk. Przeniesiesz się do świata deskorolkarskich legend, kiedy odkryjesz różnorodne rampy i przeszkody inspirowane stylami jazdy Tony'ego Hawka.",
+      "fourth": "Różnorodne Elementy Zestawu: Zestaw zawiera wiele różnorodnych elementów, takich jak rampy, przeszkody, i wiele więcej, które pozwolą Ci tworzyć własne ekscytujące trasy i scenariusze."
+    },
+    "paragraphsEng": {
+      "first": "We are thrilled to announce the arrival of the Hot Wheels Skate Tony Hawk Breakfast Ramp Set in our store! This unique set, inspired by the legendary skateboarder Tony Hawk, will provide you with many exciting moments and unforgettable fun. Here are a few things to know about this fantastic set:",
+      "second": "Exciting Skate Racing: The Breakfast Ramp Set brings thrilling skateboard racing to the world of Hot Wheels. Embark on a wild journey, performing jumps and tricks on ramps inspired by real skateboarding spots.",
+      "third": "Inspiring Tony Hawk Theme: This set was created in collaboration with skateboarding legend Tony Hawk. You will immerse yourself in the world of skateboarding legends as you discover various ramps and obstacles inspired by Tony Hawk's riding styles.",
+      "fourth": "Diverse Set Elements: The set includes many diverse elements such as ramps, obstacles, and much more, allowing you to create your own exciting tracks and scenarios."
+    }
+  },
+  {
+    "id": 22,
+    "type": "news",
+    "image": "assets/images/news/monsterArena.jpg",
+    "image-content1": "assets/images/news/Content/monsterArena1.jpg",
+    "image-content2": "assets/images/news/Content/monsterArena2.jpg",
+    "title": "Hot Wheels Monster Trucks Arena Smashers Masywny Ładunek Wyzwanie",
+    "titleEng": "Hot Wheels Monster Trucks Arena Smashers Massive Load Challenge",
+    "paragraphs": {
+      "first": "Z radością ogłaszamy pojawienie się zestawu Hot Wheels Monster Trucks Arena Smashers Masywny Ładunek Wyzwanie w naszym sklepie! Ten ekscytujący nowy dodatek do linii Hot Wheels obiecuje akcję pełną adrenaliny i niekończącą się zabawę. Oto, co powinieneś wiedzieć o tym ekscytującym zestawie:",
+      "second": "Ekscytująca Akcja Monster Trucków: Zestaw Masywny Ładunek Wyzwanie przynosi ekscytującą akcję wyścigów monster trucków do świata Hot Wheels. Przygotuj się do miażdżenia przeszkód i wykonuj epickie popisy z ulubionymi monster truckami.",
+      "third": "Ekscytujące Środowisko Areny: Ten zestaw obejmuje ekscytujące środowisko areny, w której możesz uwolnić moc swoich monster trucków. Ścigaj się po arenie, pokonuj przeszkody i podejmuj wyzwania na trudnych rampach, aby maksymalnie podkręcić emocje.",
+      "fourth": "Konfigurowalne Układy Torów: Dzięki konfigurowalnym układom torów możesz tworzyć własne unikalne trasy wyścigowe i wyzwania. Mieszaj i dopasowuj części torów, aby zaprojektować ekscytujące układy, które sprawdzą twoje umiejętności prowadzenia monster trucków."
+    },
+    "paragraphsEng": {
+      "first": "We're excited to announce the arrival of the Hot Wheels Monster Trucks Arena Smashers Massive Load Challenge to our store! This thrilling new addition to the Hot Wheels lineup promises adrenaline-pumping action and endless fun. Here's what you need to know about this exciting set:",
+      "second": "Thrilling Monster Truck Action: The Massive Load Challenge set brings the excitement of monster truck racing to Hot Wheels. Get ready to smash through obstacles and perform epic stunts with your favorite monster trucks.",
+      "third": "Exciting Arena Environment: This set features an exhilarating arena environment where you can unleash the power of your monster trucks. Race around the arena, conquer obstacles, and take on challenging ramps for maximum excitement.",
+      "fourth": "Customizable Track Configurations: With customizable track configurations, you can create your own unique race courses and challenges. Mix and match track pieces to design thrilling layouts that will test your monster truck driving skills."
+    }
+  },
+  {
+    "id": 23,
+    "type": "news",
+    "image": "assets/images/news/batloop.jpg",
+    "image-content1": "assets/images/news/Content/batloop1.jpg",
+    "image-content2": "assets/images/news/Content/batloop2.jpg",
+    "title": "Hot Wheels City Pętla Nietoperza Zestaw",
+    "titleEng": "Hot Wheels City Bat Loop Set",
+    "paragraphs": {
+      "first": "Cieszymy się ogłosić przybycie zestawu Hot Wheels City Pętla Nietoperza do naszego sklepu! Ten fascynujący zestaw przynosi wyjątkową akcję i niezapomnianą zabawę do świata Hot Wheels City. Oto kilka istotnych informacji na temat tego ekscytującego zestawu:",
+      "second": "Ekscytujące Wyścigi: Zestaw Pętla Nietoperza zapewnia ekscytujące wyścigi samochodami Hot Wheels. Odkryj niezwykłą pętlę, która pozwala Twoim samochodom na ekstremalne akrobacje i szybkie ściganie się.",
+      "third": "Dynamiczne Elementy: Zestaw zawiera dynamiczne elementy, które dodają do emocji i akcji wyścigów. Zbijaj się z rampy, przelatuj przez pętlę i pokonuj niebezpieczne zakręty, aby osiągnąć zwycięstwo.",
+      "fourth": "Interaktywny Świat Hot Wheels: Pętla Nietoperza doskonale wpasowuje się w interaktywny świat Hot Wheels City, pozwalając na dalszą rozbudowę Twojego miasta i tworzenie niesamowitych tras wyścigowych."
+    },
+    "paragraphsEng": {
+      "first": "We're excited to announce the arrival of the Hot Wheels City Bat Loop Set in our store! This fascinating set brings unique action and unforgettable fun to the world of Hot Wheels City. Here are some important details about this exciting set:",
+      "second": "Exciting Races: The Bat Loop Set provides thrilling races with Hot Wheels cars. Discover the incredible loop that allows your cars to perform extreme stunts and race at high speeds.",
+      "third": "Dynamic Elements: The set includes dynamic elements that add to the excitement and action of the races. Launch off the ramp, zoom through the loop, and conquer dangerous turns to achieve victory.",
+      "fourth": "Interactive World of Hot Wheels: The Bat Loop Set seamlessly fits into the interactive world of Hot Wheels City, allowing for further expansion of your city and the creation of amazing race tracks."
+    }
+  },
+  {
+    "id": 24,
+    "type": "news",
+    "image": "assets/images/news/tornado.jpg",
+    "image-content1": "assets/images/news/Content/tornado1.jpg",
+    "image-content2": "assets/images/news/Content/tornado2.jpg",
+    "title": "Hot Wheels Action Zakręcone Tornado Zestaw Do Zabawy",
+    "titleEng": "Hot Wheels Action Twisted Tornado Playset",
+    "paragraphs": {
+      "first": "Z ogromną radością ogłaszamy dostępność zestawu do zabawy Hot Wheels Action Zakręcone Tornado w naszym sklepie! Ten niezwykły zestaw zapewnia fascynującą zabawę i ekscytującą akcję, która porwie zarówno małych, jak i dużych fanów Hot Wheels. Oto kilka istotnych informacji na temat tego fantastycznego zestawu:",
+      "second": "Dynamiczna Akcja: Zestaw Zakręcone Tornado oferuje dynamiczną akcję, która przeniesie Twoje wyścigi samochodów Hot Wheels na zupełnie nowy poziom. Zobacz, jak Twoje samochody wirują wokół olbrzymiego tornado, wywołując efektowne sztuczki i akrobacje.",
+      "third": "Interaktywne Elementy: Zestaw ten zawiera liczne interaktywne elementy, które dodają do zabawy i ekscytacji. Odkryj, jak Twój samochód wywołuje wirujący ruch tornado, przechodzi przez skomplikowane tory i pokonuje przeszkody, tworząc niesamowite widowisko.",
+      "fourth": "Możliwości Rozbudowy: Zestaw Zakręcone Tornado idealnie wpasowuje się w inne zestawy Hot Wheels Action, co pozwala na tworzenie jeszcze większych i bardziej spektakularnych tras wyścigowych. Rozbuduj swoją kolekcję i doświadczaj niekończącej się zabawy!"
+    },
+    "paragraphsEng": {
+      "first": "With great joy, we announce the availability of the Hot Wheels Action Twisted Tornado Playset in our store! This extraordinary set provides fascinating fun and thrilling action that will captivate both young and old Hot Wheels fans. Here are some important details about this fantastic set:",
+      "second": "Dynamic Action: The Twisted Tornado Playset offers dynamic action that will take your Hot Wheels car races to a whole new level. Watch as your cars spin around the giant tornado, performing spectacular tricks and stunts.",
+      "third": "Interactive Elements: This set includes numerous interactive elements that add to the fun and excitement. Discover how your car triggers the swirling tornado motion, navigates through intricate tracks, and overcomes obstacles, creating an amazing spectacle.",
+      "fourth": "Expansion Possibilities: The Twisted Tornado Playset seamlessly integrates with other Hot Wheels Action sets, allowing for the creation of even larger and more spectacular race tracks. Expand your collection and experience endless fun!"
+    }
+  },
+  {
+    "id": 25,
+    "type": "news",
+    "image": "assets/images/news/station.jpg",
+    "image-content1": "assets/images/news/Content/station1.jpg",
+    "image-content2": "assets/images/news/Content/station2.jpg",
+    "title": "Hot Wheels City Superstacja Ładowania Samochodów Zestaw Do Zabawy",
+    "titleEng": "Hot Wheels City Car Charging Superstation Playset",
+    "paragraphs": {
+      "first": "Z wielką radością ogłaszamy dostępność zestawu do zabawy Hot Wheels City Superstacja Ładowania Samochodów w naszym sklepie! Ten fantastyczny zestaw przynosi niezwykłą akcję i zabawę, która zachwyci zarówno małych, jak i dużych fanów Hot Wheels. Oto kilka kluczowych informacji na temat tego ekscytującego zestawu:",
+      "second": "Dynamiczna Akcja: Zestaw Superstacja Ładowania Samochodów oferuje dynamiczną akcję, która przeniesie Twoje wyścigi samochodów Hot Wheels na zupełnie nowy poziom. Odkryj, jak samochody ładują się na stacjach ładowania, przygotowując się do kolejnych emocjonujących wyścigów.",
+      "third": "Interaktywne Elementy: Zestaw ten zawiera liczne interaktywne elementy, które dodają do zabawy i ekscytacji. Przetestuj swoje umiejętności, przemieszczając się po różnych stacjach, i zobacz, jak Twoje samochody są gotowe do walki na torze wyścigowym.",
+      "fourth": "Możliwości Rozbudowy: Superstacja Ładowania Samochodów idealnie wpasowuje się w inne zestawy Hot Wheels City, co pozwala na tworzenie jeszcze większych i bardziej spektakularnych tras wyścigowych. Rozbuduj swoją kolekcję i doświadczaj niekończącej się zabawy!"
+    },
+    "paragraphsEng": {
+      "first": "We are thrilled to announce the availability of the Hot Wheels City Car Charging Superstation Playset in our store! This fantastic set brings extraordinary action and fun that will delight both young and old Hot Wheels fans. Here are some key details about this exciting set:",
+      "second": "Dynamic Action: The Car Charging Superstation Playset offers dynamic action that will take your Hot Wheels car races to a whole new level. Discover how the cars charge up at the charging stations, getting ready for the next thrilling races.",
+      "third": "Interactive Elements: This set includes numerous interactive elements that add to the fun and excitement. Test your skills as you move through different stations and see how your cars are prepared to battle on the race track.",
+      "fourth": "Expansion Opportunities: The Car Charging Superstation seamlessly integrates with other Hot Wheels City sets, allowing for the creation of even larger and more spectacular race tracks. Expand your collection and experience endless fun!"
+    }
+  },
+  {
+    "id": 26,
+    "type": "news",
+    "image": "assets/images/news/monsterTruck.jpg",
+    "image-content1": "assets/images/news/Content/monsterTruck1.jpg",
+    "image-content2": "assets/images/news/Content/monsterTruck2.jpg",
+    "title": "Hot Wheels Monster Trucks 6-Kołowa Ciężarówka 1:64 Asortyment",
+    "titleEng": "Hot Wheels Monster Trucks 6-Wheel Truck 1:64 Assortment",
+    "paragraphs": {
+      "first": "Z przyjemnością informujemy, że do naszego sklepu trafił asortyment Hot Wheels Monster Trucks 6-Kołowa Ciężarówka w skali 1:64! Ten imponujący zestaw zapewni wszystkim fanom motoryzacji godziny zabawy i emocji. Oto kilka istotnych szczegółów na temat tego fantastycznego asortymentu:",
+      "second": "Potężne Monster Trucks: Asortyment ten zawiera imponujące Monster Trucks wyposażone w 6 kol, które zapewniają niezapomnianą akcję i zabawę. Każdy pojazd został starannie zaprojektowany, aby dostarczyć maksymalnej frajdy podczas wyścigów i pokazów.",
+      "third": "Różnorodność Modeli: W asortymencie znajdziesz różnorodne modele Monster Trucks, każdy z unikalnymi cechami i stylami. Od klasycznych, mocno uzbrojonych ciężarówek po futurystyczne koncepty, zapewniamy coś dla każdego fana motoryzacji.",
+      "fourth": "Zbieraj i Zawodź: Zbierz swoje ulubione modele Monster Trucks i rozpocznij własną kolekcję! Możesz również zorganizować emocjonujące zawody z przyjaciółmi, aby sprawdzić, który pojazd jest najszybszy i najbardziej wytrzymały."
+    },
+    "paragraphsEng": {
+      "first": "We are pleased to announce that the Hot Wheels Monster Trucks 6-Wheel Truck assortment in 1:64 scale has arrived at our store! This impressive assortment will provide hours of fun and excitement for all automotive enthusiasts. Here are some key details about this fantastic assortment:",
+      "second": "Powerful Monster Trucks: This assortment features impressive Monster Trucks equipped with 6 wheels, delivering unforgettable action and fun. Each vehicle has been carefully designed to provide maximum thrills during races and shows.",
+      "third": "Variety of Models: In the assortment, you'll find a variety of Monster Truck models, each with unique features and styles. From classic, heavily-armored trucks to futuristic concepts, we provide something for every automotive fan.",
+      "fourth": "Collect and Compete: Collect your favorite Monster Truck models and start your own collection! You can also organize exciting competitions with friends to see which vehicle is the fastest and most durable."
+    }
+  },
+  {
+    "id": 27,
+    "type": "news",
+    "image": "assets/images/news/pizzaCarousel.jpg",
+    "image-content1": "assets/images/news/Content/pizzaCarousel1.jpg",
+    "image-content2": "assets/images/news/Content/pizzaCarousel2.jpg",
+    "title": "Hot Wheels City Odjazdowa Pizza Atak Kobry",
+    "titleEng": "Hot Wheels City Awesome Pizza Cobra Attack Playset",
+    "paragraphs": {
+      "first": "Z wielką radością ogłaszamy premierę zestawu Hot Wheels City Odjazdowa Pizza Atak Kobry w naszym sklepie! Ten niesamowity zestaw zapewni godziny niezapomnianej zabawy i ekscytującej akcji dla wszystkich fanów Hot Wheels. Oto kilka istotnych szczegółów na temat tego fantastycznego zestawu:",
+      "second": "Ekscytująca Przygoda na Pizzy: Zestaw Odjazdowa Pizza Atak Kobry przenosi akcję do pizzerii, gdzie musisz bronić się przed atakiem kobra-węża! Przeżyj ekscytującą walkę między samochodami Hot Wheels a potężnym wężem, który zaatakował twoją pizzę.",
+      "third": "Interaktywne Elementy: Zestaw ten zawiera liczne interaktywne elementy, które dodają do zabawy i ekscytacji. Odkryj, jak zręcznie potrafisz manewrować swoimi samochodami, aby pokonać węża i uratować pizzę przed zniszczeniem.",
+      "fourth": "Możliwość Rozbudowy: Odjazdowa Pizza Atak Kobry idealnie wpasowuje się w inne zestawy Hot Wheels City, co pozwala na tworzenie jeszcze większych i bardziej spektakularnych przygód. Rozbuduj swoją kolekcję i doświadczaj niekończącej się zabawy!"
+    },
+    "paragraphsEng": {
+      "first": "We are thrilled to announce the release of the Hot Wheels City Awesome Pizza - Cobra Attack Playset in our store! This amazing set will provide hours of unforgettable fun and exciting action for all Hot Wheels fans. Here are some key details about this fantastic playset:",
+      "second": "Exciting Pizza Adventure: The Awesome Pizza - Cobra Attack set takes the action to the pizzeria, where you must defend against a cobra-snake attack! Experience an exciting battle between Hot Wheels cars and the mighty snake that has attacked your pizza.",
+      "third": "Interactive Elements: This set includes numerous interactive elements that add to the fun and excitement. Discover how skillfully you can maneuver your cars to defeat the snake and save the pizza from destruction.",
+      "fourth": "Expandability: The Awesome Pizza - Cobra Attack set seamlessly integrates with other Hot Wheels City sets, allowing for the creation of even bigger and more spectacular adventures. Expand your collection and experience endless fun!"
+    }
   }
 ]
