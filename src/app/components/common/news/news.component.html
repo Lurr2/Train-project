@@ -1,1 +1,10 @@
-<p>news works!</p>
+<div *ngIf="isVisible" class="container">
+  <ng-container *ngFor="let cards of newsData">
+    <app-news-card (click)="toggleCard(cards)" [Datanews]="cards">
+    </app-news-card>
+  </ng-container>
+</div>
+<div *ngIf="!isVisible">
+  <button (click)="showCard()" class="back-button">Wróć do kart</button>
+  <app-news-content [newsDataContent]="newsDetailsElement"> </app-news-content>
+</div>
